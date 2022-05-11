@@ -104,10 +104,11 @@ theme: hexo-theme-matery
 # deploy:
   # type: ''
 deploy:
-  type: '' # git
-  # repo: 
-  # repo: 
-  # branch: main
+  type: git # git
+  repo: git@github.com:markstarvices/markstarvices.github.io.git
+    # github: git@github.com:markstarvices/markstarvices.github.io.git
+    # gitee: git@gitee.com:marryher/myblog.git
+  branch: main
 search:
   path: search.xml
   field: post
